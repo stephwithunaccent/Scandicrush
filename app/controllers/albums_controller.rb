@@ -3,7 +3,7 @@ class AlbumsController < ApplicationController
 
   def index
     @albums = Album.all
-    @album = Album.find_by(name: "Femmes de Gueule")
+    @album = Album.find_by(name: "Nufferton")
     @meta_title = meta_title 'Paris Photographer'
   end
 
