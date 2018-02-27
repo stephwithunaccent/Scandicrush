@@ -67,6 +67,11 @@ photo23 = Photo.create(name: "Back naked neck", context: "blabla", date: Date.to
 photo24 = Photo.create(name: "Hanging", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_664/v1519236158/scandicrush/Julie_Josephine_26458.jpg", album: album3 )
 photo25 = Photo.create(name: "Shirt", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_711/v1519236158/scandicrush/Julie_Josephine_27903.jpg", album: album3 )
 photo26 = Photo.create(name: "Blouse", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_711/v1519236156/scandicrush/Julie_Josephine_27320.jpg", album: album3 )
+photo27 = Photo.create(name: "Vera3", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_936/v1519724840/Leggings.jpg", album: album5 )
+photo28 = Photo.create(name: "Vera4", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_885/v1519724831/Lace.jpg", album: album5 )
+photo29 = Photo.create(name: "Vera5", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_935/v1519724836/Strawhat.jpg", album: album5 )
+photo30 = Photo.create(name: "Vera6", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_764/v1519724833/Underwear.jpg", album: album5 )
+
 
 
 
