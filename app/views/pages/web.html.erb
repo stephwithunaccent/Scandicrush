@@ -5,18 +5,10 @@
          :background => "pink",
           :preload => "metadata", :controls => true,
           :fallback_content => "Your browser does not support HTML5 video tags" )  %>
+
     </div>
-    <div class="container">
-      <div class="gallery">
-       <% @album.photos.each do |photo| %>
-       <!---           <div class="item active"> -->
-        <div class="gallery-img">
-          <%= cl_image_tag photo.photo.path %>
-        </div>
-        <% end %>
-      </div>
+
     </div>
   </div>
 </div>
-
 
