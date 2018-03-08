@@ -5,10 +5,13 @@
    <% @album.photos.each do |photo| %>
    <!---           <div class="item active"> -->
     <div class="gallery-img">
-      <%= cl_image_tag photo.photo.path %>
+      <%= cl_image_tag photo.photo.path do %>
+      <%=link_to cl_image_tag photo.photo.path, :popup=>['original_image', 'height=700,width=900'] %>
+        <% end %>
     </div>
     <% end %>
   </div>
 </div>
+
 
 

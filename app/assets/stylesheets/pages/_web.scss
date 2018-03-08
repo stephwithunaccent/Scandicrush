@@ -1,4 +1,16 @@
-.ratemy {
-  max-width: 500px;
+
+
+.gallery-video {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    text-align: center;
+    column-count: 1;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-top: 30px;
+    overflow: hidden;
 
 }
+
+

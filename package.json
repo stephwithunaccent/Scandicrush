@@ -1,5 +1,8 @@
 {
   "name": "stephaniesmith",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.2.5",
+    "npm": "^5.7.1"
+  }
 }
