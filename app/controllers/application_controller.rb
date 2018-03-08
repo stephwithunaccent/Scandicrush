@@ -4,11 +4,8 @@ class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   protect_from_forgery with: :exception
-  BRAND_NAME = 'The Genuines'.freeze
 
-  def meta_title(title)
-    [title, BRAND_NAME].reject(&:empty?).join(' | ')
-  end
+
 
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: %i[email password password_confirmation])
