@@ -6,4 +6,6 @@
 //= require bootstrap-sprockets
 //= require_tree .
 //= require lightbox
+//= require jquery.swipebox.min.js
+
 

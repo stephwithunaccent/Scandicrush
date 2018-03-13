@@ -5,6 +5,7 @@
    <% @album.photos.each do |photo| %>
    <!---           <div class="item active"> -->
     <div class="gallery-img">
+    <a href="<%= cl_image_path photo.photo.path %>" class="swipebox" >
       <%= cl_image_tag photo.photo.path %>
     </div>
     <% end %>
