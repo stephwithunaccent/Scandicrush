@@ -8,7 +8,6 @@ gem 'pg'
 gem 'puma'
 gem 'rails', '5.1.3'
 gem 'redis'
-gem 'postgres'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
@@ -19,8 +18,6 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'mail_form'
 gem 'lightbox2-rails'
-
-
 
 gem 'cloudinary'
 gem 'attachinary', github: 'assembler/attachinary'

@@ -40,7 +40,7 @@ tag3 = Tag.create(name: "water")
 
 #photo x15 5 par album
 
-photo1 = Photo.create(name: "Nufferton", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_1081/v1519213099/scandicrush/20160903_Nufferton75061NEW.jpg", album: album4 )
+photo1 = Photo.create(name: "Nufferton", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_287/v1519213099/scandicrush/20160903_Nufferton75061NEW.jpg", album: album4 )
 photo2 = Photo.create(name: "Sausage", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_310/v1519213099/scandicrush/20160903_Nufferton75149NEW.jpg", album: album4 )
 photo3 = Photo.create(name: "Boots", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_1156/v1519213099/scandicrush/20160903_Nufferton75202NEW.jpg", album: album4 )
 photo4 = Photo.create(name: "Salsa", context: "blabla", date: Date.today, photo_url: "http://res.cloudinary.com/stephwithunaccentaigu/image/upload/c_scale,w_378/v1519213099/scandicrush/20160903_Nufferton75319NEW.jpg", album: album4 )
