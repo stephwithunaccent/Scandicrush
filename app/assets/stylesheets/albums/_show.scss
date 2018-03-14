@@ -115,8 +115,8 @@ h1 {
   p {
     color: $grey-65;
     font: {
-      family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      size: 8px;
+    family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    size: 8px;
     };
     text-transform: uppercase;
   }
@@ -124,9 +124,8 @@ h1 {
     border: 0;
     color: $darkgrey;
     font: {
-      family: Georgia, serif;
+      family: "Quattrocento Sans Regular light", "Georgia", "serif";
       size: 16px;
-      style: italic;
     };
     line-height: 28px;
     padding: 0
